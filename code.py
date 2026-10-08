@@ -15,7 +15,7 @@ WINDOW = 100
 
 np.random.seed(42)
 
-n = 3000
+n = 10000
 
 dates = pd.date_range(start="2024-01-01", periods=n, freq="h")
 
